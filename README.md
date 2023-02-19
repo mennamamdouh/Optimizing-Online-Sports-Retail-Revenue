@@ -300,8 +300,8 @@ Using these 2 functions, I can dig more into the data and understand what each c
 
 * The top 2 best selling products are **Air Jordan 10 Retro** and **Nike Zoom Fly** from **Nike**, and they were last visited on the website in 2019 and 2018 respectively.
 
-* Product's description length doesn't affect the rating of the prouct that much.
+* Product's description length doesn't affect the rating of the product that much.
 
-* **Adidas** pieces are much pricer than **Nike**
+* **Adidas** pieces are much pricier than **Nike**
 
-* Because of the first point, **Adidas** has much more number of reviews than **Nike** along the months of the year.
+* Because of the first point, **Adidas** has much greater number of reviews than **Nike** along the months of the year.
