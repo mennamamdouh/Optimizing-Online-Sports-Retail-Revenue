@@ -1,5 +1,20 @@
 # Optimizing-Online-Sports-Retail-Revenue
 
+## Table of Contents ##
+
+  - [**About the project**](#about-the-project)
+  - [**About the data**](#about-the-data)
+  - [**Project's Main Strategy**](#the-main-strategy-used-in-this-project)
+  - [**Libraries and Packages**](#python-libraries-and-packages)
+  - [**Phases of the project**](#phases-of-the-project)
+    - [1.  Database Preparation ](#1--database-preparation-)
+    - [2.  Data Exploration ](#2--data-exploration-)
+    - [3.  Data Analysis ](#3--data-analysis-)
+    - [4.  Data Visualization ](#4--data-visualization-)
+    - [5.  Extra Insights ](#5--extra-insights-)
+
+<hr>
+
 ## **About the project** ##
 
 This project is a **Guided Project** from DataCamp (i.e. the data is already prepared and ready to use). It is about analyzing an online sports retail company data. Its main goal is to answer some questions related to the store's products and their prices, brands, revenue, ratings and number of reviews.
