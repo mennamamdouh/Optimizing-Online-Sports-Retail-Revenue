@@ -155,7 +155,7 @@ This step was done using 2 functions in Python:
             print(str(number+1) + ") " + column[0], end="\n")
     ```
   
-  * **show_first_ten_results:** view the head of the data to get more understanding of what each column represents
+  * **show_first_ten_results:**
     ```
     def show_first_ten_results(table):
         '''
@@ -220,7 +220,7 @@ Using these 2 functions, I can dig more into the data and understand what each c
 <img src="Visuals\Price Categories.png" width=750>
 </p>
 
-> **Average** and **Expensive** price categories acheive more revenue than **Elite** which is the most expensive products.
+> **Average** and **Expensive** price categories achieve more revenue than **Elite** which is the most expensive products.
 
 </ul>
 
@@ -233,7 +233,7 @@ Using these 2 functions, I can dig more into the data and understand what each c
 <img src="Visuals\Reviews VS. Revenue.png" width=750>
 </p>
 
-> Revenue is increasing with the number of reviews which says that people buy the product which has more number of reviews then the revenue increases.
+> Revenue is increasing with the number of reviews which says that people buy the product which has a greater number of reviews then the revenue increases.
 
 </ul>
 
@@ -269,7 +269,7 @@ Using these 2 functions, I can dig more into the data and understand what each c
 <img src="Visuals\Visits per quarter.png" width=750>
 </p>
 
-> Along the quarters of the year, and for both brands **Adidas** and **Nike**, the first quarter (first 3 months of the year) has more number of visits for products than the other quarters.
+> Along the quarters of the year, and for both brands **Adidas** and **Nike**, the first quarter (first 3 months of the year) has a greater number of visits for products than the other quarters.
 
 </ul>
 
