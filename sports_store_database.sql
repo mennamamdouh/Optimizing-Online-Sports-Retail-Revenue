@@ -21,11 +21,11 @@ CREATE TABLE info(
 
 -- To load data into the tables
 LOAD DATA LOCAL INFILE 'path\info.csv'
-    INTO TABLE info
-    FIELDS TERMINATED BY ','
-    ENCLOSED BY '"'
-    LINES TERMINATED BY '\n'
-    IGNORE 1 ROWS;
+INTO TABLE info
+FIELDS TERMINATED BY ','
+ENCLOSED BY '"'
+LINES TERMINATED BY '\n'
+IGNORE 1 ROWS;
 
 ---------------------------------------------------
 
