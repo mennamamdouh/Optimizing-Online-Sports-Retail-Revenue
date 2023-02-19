@@ -6,7 +6,7 @@
   - [**About the data**](#about-the-data)
   - [**Project's Main Strategy**](#the-main-strategy-used-in-this-project)
   - [**Libraries and Packages**](#python-libraries-and-packages)
-  - [**Phases of the project**](#phases-of-the-project)
+  - [**Project's Phases**](#phases-of-the-project)
     - [1.  Database Preparation ](#1--database-preparation-)
     - [2.  Data Exploration ](#2--data-exploration-)
     - [3.  Data Analysis ](#3--data-analysis-)
