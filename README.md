@@ -3,7 +3,7 @@
 ## Table of Contents ##
 
   - [**About the project**](#about-the-project)
-  - [**About the data**](#about-the-data)
+  - [**About the dataset**](#about-the-dataset)
   - [**Project's Main Strategy**](#the-main-strategy-used-in-this-project)
   - [**Libraries and Packages**](#python-libraries-and-packages)
   - [**Project's Phases**](#phases-of-the-project)
@@ -21,9 +21,9 @@ This project is a **Guided Project** from DataCamp (i.e. the data is already pre
 
 <hr>
 
-## **About the data** ##
+## **About the dataset** ##
 
-This project's data is divided into 5 *csv* files:
+This project's dataset is divided into 5 *csv* files:
 
 1. **Info** contains product id with its name and description.
 2. **Finance** contains product id with its listing price, sale price, discount, and revenue.
