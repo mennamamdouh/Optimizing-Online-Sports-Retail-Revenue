@@ -11,13 +11,13 @@
     - [2.  Data Exploration ](#2--data-exploration-)
     - [3.  Data Analysis ](#3--data-analysis-)
     - [4.  Data Visualization ](#4--data-visualization-)
-  - [**Extra Insights**](#extra-insights)
+  - [**Insights**](#insights)
 
 <hr>
 
 ## **About the project** ##
 
-This project is a **Guided Project** from DataCamp (i.e. the data is already prepared and ready to use). It is about analyzing an online sports retail company data. Its main goal is to answer some questions related to the store's products and their prices, brands, revenue, ratings and number of reviews.
+This project is a **Guided Project** from DataCamp (the data is already prepared and ready to use). It is about analyzing an online sports retail company data. Its main goal is to answer some questions related to the store's products and their prices, brands, revenue, ratings and number of reviews.
 
 <hr>
 
@@ -37,7 +37,7 @@ All files have the product id as a primary key
 
 ## **The main strategy used in this project** ##
 
-First, I've created a MySQL database which in data storage has been done. Then I've established a connection between MySQL server and Python. After that I've executed all queries in Python and retrieved the required data. Finally I've done the analysis and visualization using Python's libraries and packages.
+First, I've created a MySQL database in which data was stored. Then I've established a connection between MySQL server and Python. After that I've executed all queries in Python and retrieved the required data. Finally I've done the analysis and visualization using Python's libraries and packages.
 
 <hr>
 
@@ -131,7 +131,7 @@ First, I've created a MySQL database which in data storage has been done. Then I
 * <u> Final database structure: </u>
 
 <p align="center">
-<img src="database structure.png" width=500>
+<img src="https://github.com/mennamamdouh/Optimizing-Online-Sports-Retail-Revenue/blob/temporary/database%20structure.png" width=500>
 </p>
 
 <hr>
@@ -217,7 +217,7 @@ Using these 2 functions, I can dig more into the data and understand what each c
 
 <ul>
 <p align="center">
-<img src="Visuals\Price Categories.png" width=750>
+<img src="https://github.com/mennamamdouh/Optimizing-Online-Sports-Retail-Revenue/blob/temporary/Visuals/Price%20Categories.png" width=750>
 </p>
 
 > **Average** and **Expensive** price categories achieve more revenue than **Elite** which is the most expensive products.
@@ -230,7 +230,7 @@ Using these 2 functions, I can dig more into the data and understand what each c
 
 <ul>
 <p align="center">
-<img src="Visuals\Reviews VS. Revenue.png" width=750>
+<img src="https://github.com/mennamamdouh/Optimizing-Online-Sports-Retail-Revenue/blob/temporary/Visuals/Reviews%20VS.%20Revenue.png" width=750>
 </p>
 
 > Revenue is increasing with the number of reviews which says that people buy the product which has a greater number of reviews then the revenue increases.
@@ -243,7 +243,7 @@ Using these 2 functions, I can dig more into the data and understand what each c
 
 <ul>
 <p align="center">
-<img src="Visuals\Reviews along the months.png" width=750>
+<img src="https://github.com/mennamamdouh/Optimizing-Online-Sports-Retail-Revenue/blob/temporary/Visuals/Reviews%20along%20the%20months.png" width=750>
 </p>
 </ul>
 
@@ -253,7 +253,7 @@ Using these 2 functions, I can dig more into the data and understand what each c
 
 <ul>
 <p align="center">
-<img src="Visuals\Footwear VS. Other clothing products.png" width=500>
+<img src="https://github.com/mennamamdouh/Optimizing-Online-Sports-Retail-Revenue/blob/temporary/Visuals/Footwear%20VS.%20Other%20clothing%20products.png" width=500>
 </p>
 
 > The store sells footwears (85%) more than any other piece of clothing (15%).
@@ -266,7 +266,7 @@ Using these 2 functions, I can dig more into the data and understand what each c
 
 <ul>
 <p align="center">
-<img src="Visuals\Visits per quarter.png" width=750>
+<img src="https://github.com/mennamamdouh/Optimizing-Online-Sports-Retail-Revenue/blob/temporary/Visuals/Visits%20per%20quarter.png" width=750>
 </p>
 
 > Along the quarters of the year, and for both brands **Adidas** and **Nike**, the first quarter (first 3 months of the year) has a greater number of visits for products than the other quarters.
@@ -279,7 +279,7 @@ Using these 2 functions, I can dig more into the data and understand what each c
 
 <ul>
 <p align="center">
-<img src="Visuals\Female VS. Male Products.png" width=750>
+<img src="https://github.com/mennamamdouh/Optimizing-Online-Sports-Retail-Revenue/blob/temporary/Visuals/Female%20VS.%20Male%20Products.png" width=750>
 </p>
 
 > For both **Adidas** and **Nike**, this store has products for men more than for women.
@@ -290,9 +290,9 @@ Using these 2 functions, I can dig more into the data and understand what each c
 
 <hr>
 
-## **Extra Insights** ##
+## **Insights** ##
 
-> The following insights have been extracted through the data analysis phase (i.e. they're explained in the code not using visuals).
+> In addition to the previous insights, the following insights have been gathered during the analysis phase (they're explained in the [notebook](https://github.com/mennamamdouh/Optimizing-Online-Sports-Retail-Revenue/blob/temporary/Codes/Optimizing%20Online%20Sports%20Retail%20Revenue.ipynb) without using visuals).
 
 * The store has much more **Adidas** products than **Nike** products.
 
@@ -302,6 +302,6 @@ Using these 2 functions, I can dig more into the data and understand what each c
 
 * Product's description length doesn't affect the rating of the product that much.
 
-* **Adidas** pieces are much pricier than **Nike**
+* **Adidas** pieces are much pricier than **Nike**.
 
 * Because of the first point, **Adidas** has much greater number of reviews than **Nike** along the months of the year.
