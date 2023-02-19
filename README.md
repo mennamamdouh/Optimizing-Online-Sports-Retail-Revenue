@@ -3,15 +3,15 @@
 ## Table of Contents ##
 
   - [**About the project**](#about-the-project)
-  - [**About the data**](#about-the-data)
+  - [**About the dataset**](#about-the-dataset)
   - [**Project's Main Strategy**](#the-main-strategy-used-in-this-project)
   - [**Libraries and Packages**](#python-libraries-and-packages)
-  - [**Phases of the project**](#phases-of-the-project)
+  - [**Project's Phases**](#phases-of-the-project)
     - [1.  Database Preparation ](#1--database-preparation-)
     - [2.  Data Exploration ](#2--data-exploration-)
     - [3.  Data Analysis ](#3--data-analysis-)
     - [4.  Data Visualization ](#4--data-visualization-)
-    - [5.  Extra Insights ](#5--extra-insights-)
+  - [**Extra Insights**](#extra-insights)
 
 <hr>
 
@@ -21,9 +21,9 @@ This project is a **Guided Project** from DataCamp (i.e. the data is already pre
 
 <hr>
 
-## **About the data** ##
+## **About the dataset** ##
 
-This project's data is divided into 5 *csv* files:
+This project's dataset is divided into 5 *csv* files:
 
 1. **Info** contains product id with its name and description.
 2. **Finance** contains product id with its listing price, sale price, discount, and revenue.
@@ -155,7 +155,7 @@ This step was done using 2 functions in Python:
             print(str(number+1) + ") " + column[0], end="\n")
     ```
   
-  * **show_first_ten_results:** view the head of the data to get more understanding of what each column represents
+  * **show_first_ten_results:**
     ```
     def show_first_ten_results(table):
         '''
@@ -220,7 +220,7 @@ Using these 2 functions, I can dig more into the data and understand what each c
 <img src="Visuals\Price Categories.png" width=750>
 </p>
 
-> **Average** and **Expensive** price categories acheive more revenue than **Elite** which is the most expensive products.
+> **Average** and **Expensive** price categories achieve more revenue than **Elite** which is the most expensive products.
 
 </ul>
 
@@ -233,7 +233,7 @@ Using these 2 functions, I can dig more into the data and understand what each c
 <img src="Visuals\Reviews VS. Revenue.png" width=750>
 </p>
 
-> Revenue is increasing with the number of reviews which says that people buy the product which has more number of reviews then the revenue increases.
+> Revenue is increasing with the number of reviews which says that people buy the product which has a greater number of reviews then the revenue increases.
 
 </ul>
 
@@ -269,7 +269,7 @@ Using these 2 functions, I can dig more into the data and understand what each c
 <img src="Visuals\Visits per quarter.png" width=750>
 </p>
 
-> Along the quarters of the year, and for both brands **Adidas** and **Nike**, the first quarter (first 3 months of the year) has more number of visits for products than the other quarters.
+> Along the quarters of the year, and for both brands **Adidas** and **Nike**, the first quarter (first 3 months of the year) has a greater number of visits for products than the other quarters.
 
 </ul>
 
@@ -290,7 +290,7 @@ Using these 2 functions, I can dig more into the data and understand what each c
 
 <hr>
 
-### 5. <u> Extra Insights </u> ####
+## **Extra Insights** ##
 
 > The following insights have been extracted through the data analysis phase (i.e. they're explained in the code not using visuals).
 
@@ -300,8 +300,8 @@ Using these 2 functions, I can dig more into the data and understand what each c
 
 * The top 2 best selling products are **Air Jordan 10 Retro** and **Nike Zoom Fly** from **Nike**, and they were last visited on the website in 2019 and 2018 respectively.
 
-* Product's description length doesn't affect the rating of the prouct that much.
+* Product's description length doesn't affect the rating of the product that much.
 
-* **Adidas** pieces are much pricer than **Nike**
+* **Adidas** pieces are much pricier than **Nike**
 
-* Because of the first point, **Adidas** has much more number of reviews than **Nike** along the months of the year.
+* Because of the first point, **Adidas** has much greater number of reviews than **Nike** along the months of the year.
