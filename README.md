@@ -11,7 +11,7 @@
     - [2.  Data Exploration ](#2--data-exploration-)
     - [3.  Data Analysis ](#3--data-analysis-)
     - [4.  Data Visualization ](#4--data-visualization-)
-    - [5.  Extra Insights ](#5--extra-insights-)
+  - [**Extra Insights**](#extra-insights)
 
 <hr>
 
@@ -290,7 +290,7 @@ Using these 2 functions, I can dig more into the data and understand what each c
 
 <hr>
 
-### 5. <u> Extra Insights </u> ####
+## **Extra Insights** ##
 
 > The following insights have been extracted through the data analysis phase (i.e. they're explained in the code not using visuals).
 
