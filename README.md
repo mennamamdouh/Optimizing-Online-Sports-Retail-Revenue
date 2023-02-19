@@ -131,7 +131,7 @@ First, I've created a MySQL database in which data was stored. Then I've establi
 * <u> Final database structure: </u>
 
 <p align="center">
-<img src="https://github.com/mennamamdouh/Optimizing-Online-Sports-Retail-Revenue/blob/temporary/database%20structure.png" width=500>
+<img src="https://user-images.githubusercontent.com/70551007/219980679-24d069fd-9490-451c-8114-710a53812f79.png" width=500>
 </p>
 
 <hr>
@@ -217,7 +217,7 @@ Using these 2 functions, I can dig more into the data and understand what each c
 
 <ul>
 <p align="center">
-<img src="https://github.com/mennamamdouh/Optimizing-Online-Sports-Retail-Revenue/blob/temporary/Visuals/Price%20Categories.png" width=750>
+<img src="https://user-images.githubusercontent.com/70551007/219980749-bd505df1-b140-4917-af30-344a1ed18281.png" width=750>
 </p>
 
 > **Average** and **Expensive** price categories achieve more revenue than **Elite** which is the most expensive products.
@@ -229,8 +229,7 @@ Using these 2 functions, I can dig more into the data and understand what each c
 2. How the number of reviews affects the revenue ?
 
 <ul>
-<p align="center">
-<img src="https://github.com/mennamamdouh/Optimizing-Online-Sports-Retail-Revenue/blob/temporary/Visuals/Reviews%20VS.%20Revenue.png" width=750>
+<img src="https://user-images.githubusercontent.com/70551007/219980761-0245f9da-332e-4c06-8038-717efe4f67e8.png" width=750>
 </p>
 
 > Revenue is increasing with the number of reviews which says that people buy the product which has a greater number of reviews then the revenue increases.
@@ -243,7 +242,7 @@ Using these 2 functions, I can dig more into the data and understand what each c
 
 <ul>
 <p align="center">
-<img src="https://github.com/mennamamdouh/Optimizing-Online-Sports-Retail-Revenue/blob/temporary/Visuals/Reviews%20along%20the%20months.png" width=750>
+<img src="https://user-images.githubusercontent.com/70551007/219980775-b3af5e0f-053e-4c7a-b3dd-99c6503edc72.png" width=750>
 </p>
 </ul>
 
@@ -253,7 +252,7 @@ Using these 2 functions, I can dig more into the data and understand what each c
 
 <ul>
 <p align="center">
-<img src="https://github.com/mennamamdouh/Optimizing-Online-Sports-Retail-Revenue/blob/temporary/Visuals/Footwear%20VS.%20Other%20clothing%20products.png" width=500>
+<img src="https://user-images.githubusercontent.com/70551007/219980847-55559407-0e6f-4307-9f95-fdb03da33ccf.png" width=500>
 </p>
 
 > The store sells footwears (85%) more than any other piece of clothing (15%).
@@ -266,7 +265,7 @@ Using these 2 functions, I can dig more into the data and understand what each c
 
 <ul>
 <p align="center">
-<img src="https://github.com/mennamamdouh/Optimizing-Online-Sports-Retail-Revenue/blob/temporary/Visuals/Visits%20per%20quarter.png" width=750>
+<img src="https://user-images.githubusercontent.com/70551007/219980857-edbfd214-a1c4-414b-bfc4-338a33abc9a8.png" width=750>
 </p>
 
 > Along the quarters of the year, and for both brands **Adidas** and **Nike**, the first quarter (first 3 months of the year) has a greater number of visits for products than the other quarters.
@@ -279,7 +278,7 @@ Using these 2 functions, I can dig more into the data and understand what each c
 
 <ul>
 <p align="center">
-<img src="https://github.com/mennamamdouh/Optimizing-Online-Sports-Retail-Revenue/blob/temporary/Visuals/Female%20VS.%20Male%20Products.png" width=750>
+<img src="https://user-images.githubusercontent.com/70551007/219980866-ed0f3ba0-4618-45aa-87e0-b98fd2e2c4c0.png" width=750>
 </p>
 
 > For both **Adidas** and **Nike**, this store has products for men more than for women.
