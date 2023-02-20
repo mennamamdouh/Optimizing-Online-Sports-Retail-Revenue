@@ -62,11 +62,11 @@ First, I've created a MySQL database in which data was stored. Then I've establi
 ### 1. <u> Database Preparation </u> ###
 
 * Creating a database with the help of MySQL Server
-    ```
+    ```sql
     CREATE DATABASE sports_store;
     ```
 * Creating the tables (a table for each csv file)
-    ```
+    ```sql
     CREATE TABLE info(
         product_name VARCHAR(100),
         product_id VARCHAR(15) PRIMARY KEY,
@@ -74,7 +74,7 @@ First, I've created a MySQL database in which data was stored. Then I've establi
     );
     ```
 
-    ```
+    ```sql
     CREATE TABLE finance(
         product_id VARCHAR(15) PRIMARY KEY,
         listing_price DECIMAL(6, 2),
@@ -84,7 +84,7 @@ First, I've created a MySQL database in which data was stored. Then I've establi
     );
     ```
 
-    ```
+    ```sql
     CREATE TABLE reviews(
         product_id VARCHAR(15) PRIMARY KEY,
         rating DECIMAL(2, 1),
@@ -92,14 +92,14 @@ First, I've created a MySQL database in which data was stored. Then I've establi
     );
     ```
 
-    ```
+    ```sql
     CREATE TABLE traffic(
         product_id VARCHAR(15),
         last_visited DATETIME
     );
     ```
 
-    ```
+    ```sql
     CREATE TABLE brands(
         product_id VARCHAR(15),
         brand VARCHAR(15)
@@ -109,7 +109,7 @@ First, I've created a MySQL database in which data was stored. Then I've establi
 * Importing data into these tables
 
     <u> Using the following lines for all files: </u>
-    ```
+    ```sql
     LOAD DATA LOCAL INFILE 'path\file_name.csv'
     INTO TABLE table_name
     FIELDS TERMINATED BY ','
@@ -119,7 +119,7 @@ First, I've created a MySQL database in which data was stored. Then I've establi
     ```
 
     <u> Example: </u>
-    ```
+    ```sql
     LOAD DATA LOCAL INFILE 'path\info.csv'
     INTO TABLE info
     FIELDS TERMINATED BY ','
@@ -142,7 +142,7 @@ First, I've created a MySQL database in which data was stored. Then I've establi
 This step was done using 2 functions in Python:
 
   * **show_columns:**
-    ```
+    ```python
     def show_columns(table):
         '''
         This function simply shows the columns of the table specified
@@ -156,7 +156,7 @@ This step was done using 2 functions in Python:
     ```
   
   * **show_first_ten_results:**
-    ```
+    ```python
     def show_first_ten_results(table):
         '''
         This function shows the first 10 products of the table specified
